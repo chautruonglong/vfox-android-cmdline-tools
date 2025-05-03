@@ -3,15 +3,15 @@ PLUGIN = {}
 
 --- !!! MUST BE SET !!!
 --- Plugin name
-PLUGIN.name = "your plugin name"
+PLUGIN.name = "android-cmdline-tools"
 --- Plugin version
 PLUGIN.version = "0.0.1"
 --- Plugin homepage
-PLUGIN.homepage = "https://github.com/version-fox/vfox-plugin-template"
+PLUGIN.homepage = "https://github.com/chautruonglong/vfox-android-cmdline-tools"
 --- Plugin license, please choose a correct license according to your needs.
 PLUGIN.license = "Apache 2.0"
 --- Plugin description
-PLUGIN.description = "your plugin description"
+PLUGIN.description = "android-cmdline-tools plugin, support for vfox, mise, etc."
 
 
 --- !!! OPTIONAL !!!
@@ -35,8 +35,7 @@ NOTE:
  --]]
 PLUGIN.manifestUrl = "https://github.com/version-fox/vfox-plugin-template/releases/download/manifest/manifest.json"
 -- Some things that need user to be attention!
-PLUGIN.notes = {
-}
+PLUGIN.notes = {}
 
 --- List legacy configuration filenames for determining the specified version of the tool.
 --- such as ".node-version", ".nvmrc", etc.
